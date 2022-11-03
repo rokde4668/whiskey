@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+html{
+    scroll-behavior: smooth;
+}
+.overlay{
+    position: absolute;
+    cursor: pointer;
+    transform:translateX(100%);
+    transition: 0.5s all linear;
+    width: 100%;
+    height: 100%;
+    background-color: greenyellow;
+    z-index: 50;
+    
+}
+.ri-arrow-left-line{
+    background-color: black;
+    color: white;
+    height: 3%;
+    width: 8%;
+}
+
+.line1{
+    height: 95%;
+    width: 50%;
+    /* background-image: url(https://media.istockphoto.com/photos/cheers-picture-id475500992?b=1&k=20&m=475500992&s=170667a&w=0&h=6qdnWAUz0OYN9sonDqxaXBcMOm2eRkd86ros2OTSThA=);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+.line1 >img{
+    height: 150%;
+    width: 100%;
+}
+ .line2{
+   position: absolute;
+   right: 17%;
+   bottom: 30%;
+   line-height: 50px;
+   
+} 
+
+.ri-arrow-right-fill{
+    width: 50px;
+}
+.ri-arrow-left-circle-fill{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    background-color: black;
+    z-index: 100;
+}
+#navleft{
+margin-left: 3%;
+position: relative;
+}
+h1{
+color: white;
+}
+#navright{
+    position: relative;
+    height: 10%;
+    width: 15%;
+    padding-right: 3%  ;
+    /* background-color: red; */
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.menuline{
+    height: 20px;
+    width: 26px;
+    margin-top: 11%;
+    padding-left: 4%;
+    background-color: white;
+    padding-right: 2px;
+    z-index: 100;
+}
+.buy{
+    font-size: 18px;
+    position: fixed;
+    color: grey;
+    font-family: monospace;
+}
+.menu{
+    margin-top: 11%;
+        font-size: 18px;
+        font-family: monospace;
+         color: gray;
+
+}
+
+.part1{
+    height: 90vh;
+    width: 100%;
+    /* background-color: blue; */
+    background-image: url(/WhatsApp\ Image\ 2022-09-27\ at\ 1.10.17\ PM.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text1{
+    height: 95%;
+    width: 30%;
+     /* background-color: blueviolet;  */
+}
+.world{
+font-size: 11px;
+text-transform: uppercase;
+margin: 25% 0 0 11%;
+letter-spacing: 1px;
+color: white;
+}
+.one{
+    font-size: 38px;
+    margin-top: 9%;
+    margin-left: 10%;
+    color: white;
+    font-weight: 300;
+}
+.about{
+    font-size: 12px;
+    margin-left: 11%;
+    color: white;
+    margin-top: 9%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+
+}
+
+
+.imagemain{
+    height: 95%;
+    width: 50%;
+    /* background-color: cadetblue; */
+}
+.botle{
+    height: 750px;
+    width: 400px;
+    
+}
+
+.lastbox{
+    height: 3%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 95%;
+}
+.part2{
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.photo{
+    height: 100%;
+    width: 50%;
+    background-color: black;
+}
+.text2{
+    height: 100%;
+    width: 50%;
+    background-color:black;
+}
+.backpic{
+    height: 490px;
+    width: 650px;
+    margin-top: 15%;
+    border: 1px solid gray;
+    box-shadow: 1px 0px 1px 0px gray ;
+    margin-left: 5%;
+}
+.nor{
+font-size: 10px;
+margin: 18% 0 0 20%;
+text-transform: uppercase;
+word-spacing: 2px;
+line-height: 40px;
+font-family:  sans-serif ;
+color: white;
+letter-spacing: 3px;
+
+}
+.the{
+font-size: 34px;
+margin: 5% 0 0 20%;
+text-transform: lowercase;
+/* font-family: monospace;  */
+word-spacing: 1px;
+font-weight: 200;
+color: white;
+line-height: 50px;
+}
+.dis{
+font-size: 12px;
+font-family:  sans-serif;
+color: white;
+margin: 10% 0 0 20%;
+text-transform: uppercase;
+line-height: 40px;
+letter-spacing: 3px;
+}
+
+hr{
+    width: 50px;
+}
+
+.part4{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.instapic{
+    margin-left: 5%;
+    height: 60px;
+    width: 120px;
+    margin: 2% 0 0 9.6%;
+}
+.follow{
+    font-size: 2vmax;
+    margin: 0 0 0 9.8%;
+    font-weight: 300;
+    text-transform: capitalize;
+    
+}
+ .linebnd{
+    width: 80%;    
+    border: 0.1px solid black;
+    background-color: black;
+    margin: 4% 0 0 10%;
+
+} 
+.content{
+    height: 70%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.news{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+   
+}
+.home{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+}
+.letter{
+    margin: 5% 0 0 19%;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: sons;
+    font-weight: 300;
+    text-transform: uppercase;
+
+}
+.stay{
+    font-size: 3vmax;
+    font-weight: 100;
+    margin: 5% 0 0 19%;
+    text-transform: capitalize;
+    /* line-height: 40px; */
+   
+}
+.email{
+    border: none;
+    margin: 5% 0 0 19%;
+    padding: 7px ;
+    padding-right: 14%;
+    border-bottom: 1px solid rgb(133, 128, 128);
+}
+.up{
+    padding: 5px 24px;
+    margin-left: 2%;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.icon{
+    margin: 5% 0 0 20%;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+.ri-facebook-fill{
+    margin-left: 2px;
+    margin-top: 1px;
+}
+.ri-instagram-line{
+    margin-left: 5px;
+    margin-top: 1px;
+}
+.range{ margin: 2% 0 0 8%;
+    line-height: 25px;
+    color: black;
+    font-size: 3vmax;
+    font-weight: 100;
+    text-transform: capitalize;
+
+}
+.ri-arrow-right-line{
+    margin-top: 5px;
+}
+.touch{
+    width: 90%;
+    /* background-color: aqua; */
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6%;
+    margin-left: 3%;
+
+}
+.get{
+text-transform: uppercase;
+font-size: 1.5vmax;
+margin-left: 3%;
+font-family: "gilroy";
+}
+
+
+.part3 .swiper{
+     height: 100vh;
+    width: 100%; 
+     /* background-color: yellow;  */
+     height: fit-content; 
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part3 .swiper-slide img{
+    /* margin-left: 217px; */
+    width: 100%;
+    margin-top: 5%;
+    border: 1px solid black;
+
+}
+.text3{
+    height: 26%;
+    width: 60%;
+    /* background-color: blue; */
+    margin: 0 0 0 20%;
+}
+.tyre{
+    text-align: center;
+    font-size: 1.4vmax;
+    font-family: monospace;
+    letter-spacing: 3px;
+    font-weight: 200;
+}
+
+.raw{
+    text-align: center;
+    font-weight: 100;
+    color: rgb(71, 68, 68);
+}
+.all{
+    padding: 4px 20px;
+    margin: 2% 0 0 42%;
+    background-color: transparent;
+}
+
